@@ -1,0 +1,22 @@
+2024-09-10T16:44:41.523Z [ERROR]: Can't find /createProduct on this server! - GET /createProduct
+2024-09-10T16:44:41.810Z [ERROR]: Can't find /favicon.ico on this server! - GET /favicon.ico
+2024-09-10T16:47:39.038Z [ERROR]: Can't find /createProduct on this server! - GET /createProduct
+2024-09-10T16:56:56.340Z [ERROR]: Can't find /products/:66e07a228cb76b1e8f0ff47d on this server! - GET /products/:66e07a228cb76b1e8f0ff47d
+2024-09-10T16:57:55.694Z [ERROR]: Can't find /products/66e07a228cb76b1e8f0ff47d on this server! - GET /products/66e07a228cb76b1e8f0ff47d
+2024-09-10T16:59:18.462Z [ERROR]: Can't find /products/66e07a228cb76b1e8f0ff47d on this server! - GET /products/66e07a228cb76b1e8f0ff47d
+2024-09-10T17:00:19.438Z [ERROR]: Can't find /products/:id on this server! - GET /products/:id
+2024-09-10T17:01:33.771Z [ERROR]: Can't find /product?id=66e079bb8cb76b1e8f0ff47a on this server! - GET /product?id=66e079bb8cb76b1e8f0ff47a
+2024-09-10T17:01:51.660Z [ERROR]: Can't find /product on this server! - GET /product
+2024-09-10T17:02:08.917Z [ERROR]: Can't find /product?id=66e079bb8cb76b1e8f0ff47a on this server! - GET /product?id=66e079bb8cb76b1e8f0ff47a
+2024-09-10T17:12:51.710Z [ERROR]: Error fetching weather data - GET /weather/london
+2024-09-10T17:13:53.485Z [ERROR]: Can't find /weather?place=london on this server! - GET /weather?place=london
+2024-09-10T17:14:04.054Z [ERROR]: Error fetching weather data - GET /weather/london
+2024-09-10T17:14:30.269Z [ERROR]: Error fetching weather data hoooo - GET /weather/london
+2024-09-10T17:15:48.150Z [ERROR]: Error fetching weather data - GET /weather/london
+2024-09-10T17:16:57.499Z [ERROR]: Error fetching weather data - GET /weather/London
+2024-09-10T17:17:23.053Z [ERROR]: Error fetching weather data - GET /weather/London
+2024-09-10T17:18:26.906Z [ERROR]: Error fetching weather data - GET /weather/London
+2024-09-10T17:20:20.454Z [ERROR]: Error fetching weather data - GET /weather/London
+2024-09-10T17:21:23.229Z [ERROR]: Error fetching weather data - GET /weather/London
+2024-09-10T17:22:12.223Z [ERROR]: Error fetching weather data - GET /weather/London
+2024-09-10T17:22:39.159Z [ERROR]: Error fetching weather data - GET /weather/London
