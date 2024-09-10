@@ -1,4 +1,4 @@
 /node_modules
 .env
-.combined
-.error
+combined.log
+error.log
