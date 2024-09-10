@@ -1,9 +1,7 @@
 import { serverCreation } from "./config/app";
 import { connectDb } from "./config/connectDb";
-import path from "path";
-import dotenv from "dotenv";
-
-dotenv.config({path: path.resolve(__dirname, ".env")})
+import * as dotenv from "dotenv";
+dotenv.config();
 
 const startServer = async () => {
   try {
