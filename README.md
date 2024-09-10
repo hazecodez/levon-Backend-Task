@@ -1,6 +1,5 @@
-# Password Generator
+# Levon-Backend-Task
 
-This is a password generator application built using React.js. The project was developed to learn and practice React concepts such as state management, custom hooks, and component-based architecture.
 
 ## Folder Structure:
 
@@ -29,29 +28,18 @@ This is a password generator application built using React.js. The project was d
         - logger.ts - Logger configuration.
     - index.ts - Entry point for the application.
 
-
-## Project Structure
-
-- App.jsx: The main entry point of the application that renders the password generator component.
-- Components/PassGenerator.jsx: The primary component handling the UI and user interactions for generating passwords.
-- Components/PasswordStrengthChecker.jsx: A component that evaluates and displays the strength of the generated password.
-- Components/Button.jsx: A reusable button component for handling actions like generating and copying passwords.
-- Components/CheckBoxes.jsx: A component that renders checkboxes for selecting password criteria.
-- Hooks/usePassGenerator.jsx: A custom hook that manages the password generation logic, including validation and error handling.
-- index.css: The styling for the entire application, ensuring a cohesive and visually appealing design.
-
 ## How to Run
 
-Clone the project
+Clone the repository to your local machine
 
 ```bash
-  git clone https://github.com/hazecodez/Password-Generator.git
+  git clone https://github.com/hazecodez/levon-Backend-Task.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Password-Generator
+  cd levon-Backend-Task
 ```
 
 Install dependencies
@@ -60,27 +48,72 @@ Install dependencies
   npm install
 ```
 
+Create a .env file in the root directory and add your environment variables:
+
+```bash
+  MONGO_URI=your_mongodb_uri
+  JWT_SECRET=your_jwt_secret
+  WEATHER_API_ID=your_weather_api_key
+
+```
+
 Start the server
 
 ```bash
   npm run dev
 ```
 
-- Open your browser and navigate to http://localhost:5173 to play the game.
+- The server will be running on http://localhost:5000.
 
-## Learning Objectives
+## API Endpoints
 
-- Gain experience with React hooks for state and effect management.
-- Build a structured React application with reusable components.
-- Handle user interactions and update the UI dynamically.
-- Implement custom hooks for encapsulating and reusing logic.
+#### User Routes
 
-## Screenshots
+Register a new user.
+```http
+  POST /register
+```
+Login a user.
+```http
+  POST /login
+```
+Get the user profile (authenticated)
+```http
+  GET /profile
+```
+#### Product Routes
 
-![App Screenshot](/public/Image.png)
+Create a new product.
+```http
+  POST /createProduct
+```
+Get all products.
+```http
+  GET /products
+```
+Get a product by ID.
+```http
+  GET /product/:id
+```
+Update a product by ID
+```http
+  PUT /updateProduct/:id
+```
+Delete a product by ID
+```http
+  DELETE /deleteProduct/:id
+```
 
-## Future Improvements
+#### Weather Routes
 
-- Add more customization options like specific character inclusion/exclusion.
-- Improve the UI with additional styling or animations.
-- Implement a feature to save and manage multiple passwords.
+Get weather information for a place
+```http
+  GET /weather/:place
+```
+
+#### Messaging Routes
+
+Post a new message
+```http
+  POST /postMessage
+```
