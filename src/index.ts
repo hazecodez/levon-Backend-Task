@@ -9,7 +9,7 @@ const startServer = async () => {
     connectDb();
     const server = serverCreation();
 
-    server?.listen(5000, () =>
+    server?.listen(4050, () =>
       console.log(`Server is running ${"http://localhost:4050"}`)
     );
   } catch (error) {
