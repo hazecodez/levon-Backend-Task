@@ -66,7 +66,7 @@ Start the server
   npm run dev
 ```
 
-- The server will be running on http://localhost:5000.
+- The server will be running on http://localhost:4050.
 
 ## API Endpoints
 

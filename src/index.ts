@@ -10,7 +10,7 @@ const startServer = async () => {
     const server = serverCreation();
 
     server?.listen(5000, () =>
-      console.log(`Server is running ${"http://localhost:5000"}`)
+      console.log(`Server is running ${"http://localhost:4050"}`)
     );
   } catch (error) {
     console.log(error);
